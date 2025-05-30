@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dipper/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/xiaomi/dipper/proprietary/vendor/etc/gpsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpsconfig.xml \
     vendor/xiaomi/dipper/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
-    vendor/xiaomi/dipper/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/dipper/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/dipper/proprietary/vendor/etc/init/vendor.qti.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.0-service.rc \
     vendor/xiaomi/dipper/proprietary/vendor/etc/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lhd.conf \
@@ -224,30 +223,24 @@ PRODUCT_PACKAGES += \
     libtonemapalgo \
     libvidhance \
     android.hardware.gnss@2.0-impl-xiaomi \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     android.hardware.secure_element@1.0-impl \
     fingerprint.fpc.sdm845 \
     fingerprint.goodix.sdm845 \
     flp.brcm \
     gps.brcm \
-    vendor.qti.hardware.bluetooth_sar@1.0-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
-    libbtnv \
     libdiagjni \
     libgf_ca \
     libgf_hal \
     libgps.utils \
     libremosaiclib \
     sensors.ssc \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
     dirac_resource \
     libSuperSensor_skel \
     libarcsoft_dualcam_refocus_skel \
     misound_res \
     glgps \
     gps.cer \
-    android.hardware.bluetooth@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     vendor.qti.secure_element@1.0-service \
     ignss_2_0 \
